@@ -1,0 +1,6 @@
+f = open("Lecture_3/sample.txt")
+c = f.read()
+w = c.split()
+print("The total number of words in the file is:", len(w)) 
+print("The unique words in the file are:", set(w))          
+f.close()
